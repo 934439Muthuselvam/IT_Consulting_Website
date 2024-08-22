@@ -39,15 +39,15 @@
             </nav>
         </div>
     </header>
-
-    <section class="bg-[url('/assets/images/hero_bg_19_1.jpg')] h-screen flex items-center relative overflow-hidden z-10">
+    <!-- section 1 -->
+    <section class="bg-[url('/assets/images/hero_bg_19_1.jpg')] h-dvh flex items-center relative overflow-hidden z-10">
         <div class="absolute bg-gray-800 bg-opacity-70 w-full h-full"></div>
         <div class="max-w-[85rem] w-full mx-auto px-5 ">
             <div class="grid grid-cols-1 md:grid-cols-2">
-                 <!-- leftsidecontent -->
+                <!-- leftsidecontent -->
                 <div class="flex flex-col justify-center animate-fade-up">
                     <div class="flex gap-2 text-white text-lg  mb-5">
-                        <img src="./assets/title_shape_5.1.svg" alt="">
+                        <img src="./assets/images/title_shape_5.1.svg" alt="">
                         <h2>Welcome to IT Consulting</h2>
                     </div>
                     <div class="text-white text-4xl md:text-6xl font-bold mb-5 ">
@@ -67,9 +67,17 @@
                             An Appoinment</button>
                     </div>
                 </div>
-         <!-- leftsidecontent end-->
-                <div class="flex justify-end animate-fade-up animate-duration-[5000ms]">
+                <!-- leftsidecontent end-->
+                <div class="flex   justify-end gap-5 animate-fade-up  animate-duration-[5000ms]">
                     <img src="./assets/images/hero_19_2.png" alt="">
+                    <div class="hidden xl:flex flex-col justify-center gap-5">
+                        <button
+                            class="bg-white text-black rounded-full w-12 h-12  hover:bg-[#3f66f2] hover:text-white "> <i
+                                class="fa-solid fa-arrow-left"></i></button>
+                        <button
+                            class="bg-white text-black rounded-full w-12 h-12  hover:bg-[#3f66f2] hover:text-white "> <i
+                                class="fa-solid fa-arrow-left"></i></button>
+                    </div>
                 </div>
             </div>
 
@@ -77,47 +85,128 @@
 
         </div>
     </section>
+    <!-- section 1 end...-->
 
-<!-- <section>
-   <div class="max-w-[85rem] w-full mx-auto px-5  py-96 ">      
-    <div class="flex flex-col justify-between"></div>        
+    <!-- section 2 -->
+    <section>
+        <div class="max-w-[95rem] w-full mx-auto px-5 py-20">
+            <div class="grid lg:grid-cols-2 grid-cols-1 gap-5 ">
 
-            <div class="flex gap-2 text-black  text-lg ">
-                <img src="./assets/images/title_shape_5.svg" alt="">
-                <h3>About Our Company</h3>
+                <div class="flex order-2 md:order-1">
+                    <img src="./assets/images/about_17_1 (2).jpg" alt="">
+                    <!-- <h2 class="experience-year">25</h2>
+                    <p class="experience-text">Years of experience in startup building</p> -->
+
+                </div>
+
+                <div class="flex flex-col justify-end order-1 md:order-2 ">
+                    <div class="flex gap-2 text-blue-500 text-lg  mb-5">
+                        <img src="./assets/images/title_shape_5 (1).svg" alt="">
+                        <h3>ABOUT OUR COMPANY</h3>
+                    </div>
+                    <div class="text-4xl font-bold mb-10">
+                        <h1>Introduce The Masterminds Behind Webteck's IT Solutions.</h1>
+                    </div>
+                    <div class="text-slate-500 mb-10">
+                        <p>Webteck is your trusted partner for all things IT. We're a passionate team of IT consultants
+                            fueled by a desire to help businesses thrive in today's ever-evolving technological
+                            landscape.</p>
+                    </div>
+
+                    <div class=" rounded-2xl px-5 bg-[#f0f3fa] mb-10">
+                        <div class="grid md:grid-cols-2 justify-between items-center text-2xl py-5 ">
+                            <div class="flex md:justify-start gap-3 mb-5">
+                                <img src="./assets/images/about_2_1.svg" alt="">
+                                <div>Our Expert Team</div>
+                            </div>
+
+                            <div class="flex md:justify-end gap-3 mb-5">
+                                <img src="./assets/images/about_2_2.svg " alt="">
+                                <div>Award Winning</div>
+                            </div>
+
+                            <div class="flex md:justify-start gap-3 mb-5">
+                                <img src="./assets/images/about_2_3.svg" alt="">
+                                <div>Transparency</div>
+                            </div>
+
+                            <div class="flex md:justify-end gap-3 mb-5 ">
+                                <img src="./assets/images/about_2_4.svg" alt="">
+                                <div>24/7 Support</div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="grid md:grid-cols-3 gap-10">
+                        <button
+                            class=" bg-[#3f66f2] rounded-full text-white px-7 py-3 hover:bg-black  hover:text-white ">Contact
+                            Us
+                        </button>
+                        <div class="flex gap-4 ">
+                            <div
+                                class="flex items-center justify-center text-[#4164fb] bg-[#ccd6ff] rounded-full w-10 h-10 ">
+                                <i class="fa-solid fa-phone "></i>
+
+                            </div>
+                            <div>
+                                <h3 class="text-slate-500">Call Now!</h3>
+                                <a class="hover:text-blue-600 font-semibold" href="#">+256 3254 2598</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
-            <div>
-                <h1>Introduce The Masterminds Behind Webteck's IT Solutions.</h1> 
-            </div>
-            <div>
-                <p>Webteck is your trusted partner for all things IT. We're a passionate team of IT consultants fueled by a desire to help businesses thrive in today's ever-evolving technological landscape.</p>
-            </div>
+        </div>
 
-            <div class=" flex items-center bg-[#eef1f8] rounded-xl w-full px-10 py-10">
-                    <ul>
-                        <li><img src="./assets/about_2_1.svg" alt="">Our Expert Team</li>
-                        <li><img src="./assets/about_2_3.svg" alt="">Transparency</li>
-                    </ul>
-                    <ul>
-                        <li><img src="./assets/about_2_2.svg" alt="">Award Winning</li>
-                        <li><img src="./assets/about_2_4.svg" alt="">24/7 Support</li>
+    </section>
 
-                    </ul>
-            </div>
-            <div>
-                <button class=" bg-[#3f66f2] rounded-full text-white px-5 py-4 hover:bg-white hover:text-black">Contact Us</button>
-                <button class="bg-[#687bd1]  rounded-full w-12 h-12  "><i class="fa-solid fa-phone"></i></button>Call Now! 
-                <a href="+(+256) 3254 2598">(+256) 3254 2598</a>
+    <!-- section 2 end...-->
 
+    <!-- section 3 -->
+
+    <section>
+
+        <div class="max-w-[100rem] w-full mx-auto px-10  py-10 bg-[#f0f3fa] rounded-2xl">
+
+
+            <div class="flex justify-center gap-2 text-blue-500 text-lg  mb-5">
+                <img src="./assets/images/title_shape_5 (1).svg" alt="">
+                <h3>OUR SERVICES</h3>
             </div>
 
-            <div class="flex justify-end">
-                <img src="./assets/about_17_1 (1).jpg" alt="">
+            <div class=" flex justify-center text-4xl font-bold mb-10">
+                <h1>Tailored IT Solutions For Your Needs</h1>
             </div>
-      
-    </div>
-</section> -->
+            <div class="grid md:grid-cols-2 grid-cols-1 lg:grid-cols-3">
+                <div class=" rounded-3xl bg-white px-5 ">
+                    <div class="flex rounded-xl justify-center py-7">
+                        <img src="./assets/images/service_9_2.jpg" alt="">
+                    </div>
+                    <div class="flex justify-start text-3xl font-bold mb-5 ">
+                        <a href="#">
+                            <h1>Infrastructure & Cloud Services</h1>
+                        </a>
+                    </div>
+                    <div class="flex justify-start text-slate-500  mb-5">
+                        <p>Our experts ensure your IT infrastructure is optimized and secure. We offer cloud migration.
+                        </p>
+                    </div>
+                    <div class="flex justify-start text-slate-500 hover:text-blue-500 py-5">
+                        <a href="#">Read Details <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
 
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- section 2 end...-->
 </body>
 <link rel="stylesheet" href="./assets/vendor/@fortawesome/fontawesome-free/js/all.min.js">
 
