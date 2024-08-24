@@ -7,6 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="./output.css">
     <link rel="stylesheet" href="./assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
 
 
 </head>
@@ -309,7 +311,7 @@
                 <div class=" flex justify-end py-10 mx-10 relative ">
                     <img src="./assets/images/feature-img-12-1.jpg" alt="" class="rounded-2xl">
                     <div
-                        class="absolute bottom-12 left-3 animate-bounce animate-duration-[7000ms] animate-delay-[2000ms]">
+                        class="md:block hidden absolute bottom-12 left-3 animate-bounce animate-duration-[7000ms] animate-delay-[2000ms]">
                         <img src="./assets/images/feature-img-12-2 (1).jpg" alt="" class="rounded-2xl">
                     </div>
                 </div>
@@ -320,62 +322,209 @@
         </div>
     </section>
     <!-- section 4 end...-->
+
+    <!-- section 5 -->
     <section>
-        <div class="max-w-[85rem] w-full mx-auto px-5 py-20">
-            <div class="grid lg:grid-cols-2 xl:grid-cols-1 gap-5 ">
-                <div class="flex justify-center gap-2 text-blue-500 text-lg  mb-5">
-                    <img src="./assets/images/title_shape_5 (1).svg" alt="">
-                    <h3>OUR PROJECT</h3>
+        <div class=" w-full mx-auto px-10  py-20 bg-[#f0f3fa] ">
+
+
+            <div class="flex justify-center gap-2 text-blue-500 text-lg  mb-5">
+                <img src="./assets/images/title_shape_5 (1).svg" alt="">
+                <h3>OUR PROJECT </h3>
+            </div>
+
+            <div class=" flex justify-center  text-4xl font-bold mb-10">
+                <h1>The Webteck IT Consulting Portfolio</h1>
+            </div>
+            <div class="grid md:grid-cols-2 grid-cols-1 lg:grid-cols-3  xl:grid-cols-4  gap-5">
+                <div class="card__container">
+
+                    <article class="card__article">
+
+                        <img src="assets/images/project_10_2.jpg" alt="image" class="card__img">
+                        <div class="card__data">
+                            <a href="" class="hover:text-blue-600">Consulting </a>
+                            <div class="text-xl font-bold hover:text-blue-700">
+                                <a href="#" class="card__button">IT Strategy & Planning</a>
+                            </div>
+                        </div>
+                    </article>
                 </div>
 
-                <div class=" flex justify-center  text-4xl font-bold mb-10">
-                    <h1>The Webteck IT Consulting Portfolio</h1>
-                </div>
-                
-                <div class="container">
-                    <div class="card__container">
-                        <article class="card__article">
-                            <img src="assets/images/project_10_2.jpg" alt="image" class="card__img">
-                            <div class="card__data">
-                                <a href="" class="hover:text-blue-600">Consulting </a>
-                                <div>
-                                    <a href="#" class="card__button">IT Strategy & Planning</a>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="card__article">
-                            <img src="assets/images/project_10_3.jpg" alt="image" class="card__img">
-
-                            <div class="card__data">
-                                <a href="" class="hover:text-blue-600">Consulting </a>
-                                <div>
-                                    <a href="#" class="card__button">Cloud Services</a>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="card__article">
-                            <img src="/assets/images/project_10_4.jpg" image" class="card__img">
-
-                            <div class="card__data">
-                                <a href="" class="hover:text-blue-600">Consulting </a>
-                                <div>
-                                    <a href="#" class="card__button">Application Services</a>
-                                </div>
-                            </div>
-                        </article>
+                <article class="card__article">
+                    <img src="assets/images/project_10_3.jpg" alt="image" class="card__img">
+                    <div class="card__data">
+                        <a href="" class="hover:text-blue-600">Consulting </a>
+                        <div class="text-xl font-bold hover:text-blue-700">
+                            <a href="#" class="card__button">Cloud Services</a>
+                        </div>
                     </div>
-                </div>
+                </article>
+
+                <article class="card__article">
+                    <img src="/assets/images/project_10_4.jpg" image" class="card__img">
+
+                    <div class="card__data">
+                        <a href="" class="hover:text-blue-600">Consulting </a>
+                        <div class="text-xl font-bold hover:text-blue-700">
+                            <a href="#" class="card__button">Application Services</a>
+                        </div>
+                    </div>
+                </article>
 
 
+                <article class="card__article">
+                    <img src="/assets/images/project_10_5.jpg" image" class="card__img">
 
+                    <div class="card__data">
+                        <a href="" class="hover:text-blue-600">Consulting </a>
+                        <div class="text-xl font-bold hover:text-blue-700">
+                            <a href="#" class="card__button">IT Consultency</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        
+        </div>
     </section>
 
+    <!-- section 5 balance for swip add-->
 
+     <!-- swiper section section-6 start -->
+    <section class="items-center animate-flip-up">
+        <div class="max-w-[85rem] w-full mx-auto px-10  py-10 ">
 
+            <div class="flex justify-center gap-2 text-blue-500 text-lg  mb-5">
+                <img src="./assets/images/title_shape_5 (1).svg" alt="">
+                <h3>CLIENT REVEW </h3>
+            </div>
 
+            <div class=" flex justify-center  text-4xl font-bold mb-10">
+                <h1>What Our Clients Say</h1>
+            </div>
+        </div>
+      </section>
+      
+
+     
+      <section class="py-10 overflow-hidden">
+        <div class="max-w-[80rem] mx-auto px-4 py-8 mb-5 relative">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <!-- Card Slide 1 -->
+     
+              <div class="swiper-slide flex justify-center items-center  p-0  relative h-32 w-32">
+                <div>
+                <img src="./assets/images/quote4.svg" alt="" class="absolute bottom-0 right-0 h-16 w-16 ">
+            </div>
+                <div class="w-full max-w-sm bg-white shadow-lg rounded-lg overflow-hidden">
+                  <div class="p-4 text-center">
+                    <p class="text-sm font-semibold text-center mb-2">Webteck has been instrumental in fortifying our e-commerce platform. With their expert assessment and robust solutions, our website's performance and security have significantly improved. Their proactive approach mitigates risks</p>
+                    <h2 class="text-xl text-blue-900 mb-2">Sarah Anderson</h2>
+                    <p class="text-gray-600">Manager</p>
+                  </div>
+                </div>
+              </div>
+         <!-- Card Slide 2 -->
+              <div class="swiper-slide flex justify-center items-center p-0">
+                <div class="w-full max-w-sm bg-white shadow-lg rounded-lg overflow-hidden">
+                  <div class="p-4 text-center">
+                    <p class="text-sm font-semibold text-center mb-2">
+                        Webteck has been a game-changer for our business. Their IT strategy helped us streamline operations, improve data security, and ultimately boost our productivity by 20%. We highly recommend Webteck to any company looking for a reliable.e.
+                    </p>
+                    <h2 class="text-xl text-blue-900 mb-2">Andy Dufren</h2>
+                    <p class="text-gray-600">CTO of Portfolio</p>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Card Slide 3 -->
+              <div class="swiper-slide flex justify-center items-center p-0">
+                <div class="w-full max-w-sm bg-white shadow-lg rounded-lg overflow-hidden">
+                  <div class="p-4 text-center">
+                    <p class="text-sm font-semibold text-center mb-2">Webteck has been an invaluable partner for our growing e-commerce business. Their team assessed our IT infrastructure, identified critical security vulnerabilities, and implemented robust solutions that gave us peace of mind. We've experienced a significant.</p>
+                    <h2 class="text-xl text-blue-900 mb-2">Pe Woodman</h2>
+                    <p class="text-gray-600">CEO at Rimasu</p>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Card Slide 4 -->
+             
+              <div class="swiper-slide flex justify-center items-center p-0">
+                <div class="w-full max-w-sm bg-white shadow-lg rounded-lg overflow-hidden">
+                  <div class="p-4 text-center">
+                    <p class="text-sm font-semibold text-center mb-2">improvement in our website's performance and security since partnering with Webteck. Their expertise and proactive approach have helped us mitigate potential risks and enhance our online presence. We highly recommend their services to any business</p>
+                    <h2 class="text-xl text-blue-900 mb-2">Millar Michel </h2>
+                    <p class="text-gray-600">Business Student</p>
+                  </div>
+                </div>
+              </div>
+      
+                
+              <div class="swiper-slide flex justify-center items-center p-0">
+                <div class="w-full max-w-sm bg-white shadow-lg rounded-lg overflow-hidden">
+                  <div class="p-4 text-center">
+                    <p class="text-sm font-semibold text-center mb-2">improvement in our website's performance and security since partnering with Webteck. Their expertise and proactive approach have helped us mitigate potential risks and enhance our online presence. We highly recommend their services to any business</p>
+                    <h2 class="text-xl text-blue-900 mb-2">Millar Michel </h2>
+                    <p class="text-gray-600">Business Student</p>
+                  </div>
+                </div>
+              </div>
+      
+                
+              <div class="swiper-slide flex justify-center items-center p-0">
+                <div class="w-full max-w-sm bg-white shadow-lg rounded-lg overflow-hidden">
+                  <div class="p-4 text-center">
+                    <p class="text-sm font-semibold text-center mb-2">improvement in our website's performance and security since partnering with Webteck. Their expertise and proactive approach have helped us mitigate potential risks and enhance our online presence. We highly recommend their services to any business</p>
+                    <h2 class="text-xl text-blue-900 mb-2">Millar Michel </h2>
+                    <p class="text-gray-600">Business Student</p>
+                  </div>
+                </div>
+              </div>
+      
+
+              <!-- Add more slides as needed -->
+            </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section-6 end....... -->
 </body>
+
+
+
 <link rel="stylesheet" href="./assets/vendor/@fortawesome/fontawesome-free/js/all.min.js">
 
+
+<script src="./assets/vendor/@fortawesome/fontawesome-free/js/all.min.js"></script>
+<script src="./assets/js/menu.js"></script>
+<script src="./assets/js/scroll.js"></script>
+<script src="./assets/js/down.js"></script>
+<script src="./assets/js/down.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 4, // Number of slides to show per view
+    spaceBetween: 30, // Space between slides
+    centeredSlides: true, // Center slides in the view
+    autoplay: {
+      delay: 2500, // Delay between slides in ms
+      disableOnInteraction: false, // Continue autoplay after user interaction
+    },
+    pagination: {
+      el: ".swiper-pagination", // Pagination element
+      clickable: true, // Make pagination bullets clickable
+    },
+    navigation: {
+      nextEl: ".swiper-button-next", // Next button element
+      prevEl: ".swiper-button-prev", // Previous button element
+    },
+  });
+
+</script>
 </html>
