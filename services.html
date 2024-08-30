@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT_Consulting_Website</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="./assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <header class="sticky top-0 z-20 ">
+        <div class="w-full bg-[#393941]">
+            <nav class="  max-w-[85rem] w-full mx-auto px-5 py-7 ">
+                <div class="flex justify-between text-center ">
+                    <div class="text-white flex items-center ">
+                        <img src="./assets/images/logo-white3 (2).svg" alt="">
+                    </div>
+
+                    <!--<div class="xl:hidden text-white text-3xl ">
+                        <i class="fa-solid fa-bars"></i>
+                    </div> -->
+
+
+                    <div class="xl:hidden relative inline-block">
+                        <button onclick="toggleDropdown()"
+                            class="bg-blue-500 text-white px-4 py-2 text-base font-semibold rounded focus:outline-none focus:ring-2 focus:ring-blue-300">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                        <div id="myDropdown"
+                            class="absolute right-0 mt-2 w-48 bg-white border border-gray-300 rounded shadow-lg hidden">
+                            <a href="index.html" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">Home</a>
+                            <a href="about.html" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">About Us</a>
+                            <a href="services.html" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">Services</a>
+                            <a href="portfolio.html"
+                                class="block px-4 py-2 text-gray-700 hover:bg-gray-200">Portfolio</a>
+                            <a href="contact.html" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">Contact</a>
+                        </div>
+                    </div>
+
+                    <script src="./index.js/dropdown.js"></script>
+
+
+
+                    <div class="hidden xl:flex gap-7  items-center text-white font-semibold">
+                        <a href="index.html">Home </a>
+                        <a href="about.html">About Us</a>
+                        <a href="services.html">Services </a>
+                        <a href="portfolio.html">Portfolio</a>
+
+                        <a href="contact.html">Contact Us</a>
+
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- section 1 start -->
+    <section>
+        <div
+            class="max-w-[120rem] mx-auto px-3 lg:px-10 py-10  bg-[url('./assets/images/service_bg_18.jpg')] rounded-2xl">
+            <div class="flex justify-center items-center gap-2 text-blue-500 text-lg mb-5">
+                <img src="./assets/images/title_shape_5.svg" alt="Title Shape" />
+                <h3 class="text-center">OUR SERVICES</h3>
+            </div>
+            <div class="flex justify-center text-xl lg:text-2xl font-bold mb-10">
+                <h1 class="text-center">Tailored IT Solutions For Your Needs</h1>
+            </div>
+
+            <!-- Swiper -->
+            <div class="swiper myCustomSwiper">
+                <div class="swiper-wrapper">
+                    <!-- Service 1 -->
+                    <div class="swiper-slide  rounded-2xl bg-white p-4 md:p-5 shadow-lg">
+                        <div class="flex justify-center py-5 md:py-7">
+                            <img src="./assets/images/service_9_2.jpg" alt="Service 1" class="rounded-2xl">
+                        </div>
+                        <div class="text-xl md:text-2xl font-bold mb-4">
+                            <a href="#" class="hover:text-blue-700">
+                                <h1>Infrastructure & Cloud Services</h1>
+                            </a>
+                        </div>
+                        <div class="text-slate-500 mb-4">
+                            <p>Our experts ensure your IT infrastructure is optimized and secure. We offer cloud
+                                migration.</p>
+                        </div>
+                        <div class="text-slate-500 hover:text-blue-500 py-3">
+                            <a href="#">Read Details <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div class="swiper-slide   rounded-2xl bg-white p-4 md:p-5 shadow-lg">
+                        <div class="flex justify-center py-5 md:py-7">
+                            <img src="./assets/images/service_9_3.jpg" alt="Service 2" class="rounded-2xl">
+                        </div>
+                        <div class="text-xl md:text-2xl font-bold mb-4">
+                            <a href="#" class="hover:text-blue-700">
+                                <h1>Software & Application Services</h1>
+                            </a>
+                        </div>
+                        <div class="text-slate-500 mb-4">
+                            <p>We can help you leverage technology to streamline processes and enhance productivity.</p>
+                        </div>
+                        <div class="text-slate-500 hover:text-blue-500 py-3">
+                            <a href="#">Read Details <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="swiper-slide  rounded-2xl bg-white p-4 md:p-5 shadow-lg">
+                        <div class="flex justify-center py-5 md:py-7">
+                            <img src="./assets/images/service_9_1.jpg" alt="Service 3" class="rounded-2xl">
+                        </div>
+                        <div class="text-xl md:text-2xl font-bold mb-4">
+                            <a href="#" class="hover:text-blue-700">
+                                <h1>IT Strategy & Planning</h1>
+                            </a>
+                        </div>
+                        <div class="text-slate-500 mb-4">
+                            <p>We assist you in crafting a robust IT strategy and roadmap that aligns with your overall
+                                business.</p>
+                        </div>
+                        <div class="text-slate-500 hover:text-blue-500 py-3">
+                            <a href="#">Read Details <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Repeat Services -->
+                    <!-- Service 1 -->
+                    <div class="swiper-slide   rounded-2xl bg-white p-4 md:p-5 shadow-lg">
+                        <div class="flex justify-center py-5 md:py-7">
+                            <img src="./assets/images/service_9_2.jpg" alt="Service 1" class="rounded-2xl">
+                        </div>
+                        <div class="text-xl md:text-2xl font-bold mb-4">
+                            <a href="#" class="hover:text-blue-700">
+                                <h1>Infrastructure & Cloud Services</h1>
+                            </a>
+                        </div>
+                        <div class="text-slate-500 mb-4">
+                            <p>Our experts ensure your IT infrastructure is optimized and secure. We offer cloud
+                                migration.</p>
+                        </div>
+                        <div class="text-slate-500 hover:text-blue-500 py-3">
+                            <a href="#">Read Details <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div class="swiper-slide   rounded-2xl bg-white p-4 md:p-5 shadow-lg">
+                        <div class="flex justify-center py-5 md:py-7">
+                            <img src="./assets/images/service_9_3.jpg" alt="Service 2" class="rounded-2xl">
+                        </div>
+                        <div class="text-xl md:text-2xl font-bold mb-4">
+                            <a href="#" class="hover:text-blue-700">
+                                <h1>Software & Application Services</h1>
+                            </a>
+                        </div>
+                        <div class="text-slate-500 mb-4">
+                            <p>We can help you leverage technology to streamline processes and enhance productivity.</p>
+                        </div>
+                        <div class="text-slate-500 hover:text-blue-500 py-3">
+                            <a href="#">Read Details <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="swiper-slide   rounded-2xl bg-white p-4 md:p-5 shadow-lg">
+                        <div class="flex justify-center py-5 md:py-7">
+                            <img src="./assets/images/service_9_1.jpg" alt="Service 3" class="rounded-2xl">
+                        </div>
+                        <div class="text-xl md:text-2xl font-bold mb-4">
+                            <a href="#" class="hover:text-blue-700">
+                                <h1>IT Strategy & Planning</h1>
+                            </a>
+                        </div>
+                        <div class="text-slate-500 mb-4">
+                            <p>We assist you in crafting a robust IT strategy and roadmap that aligns with your overall
+                                business.</p>
+                        </div>
+                        <div class="text-slate-500 hover:text-blue-500 py-3">
+                            <a href="#">Read Details <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+
+                    <!-- Repeat Services -->
+                    <!-- Service 1 -->
+                    <div class="swiper-slide   rounded-2xl bg-white p-4 md:p-5 shadow-lg">
+                        <div class="flex justify-center py-5 md:py-7">
+                            <img src="./assets/images/service_9_2.jpg" alt="Service 1" class="rounded-2xl">
+                        </div>
+                        <div class="text-xl md:text-2xl font-bold mb-4">
+                            <a href="#" class="hover:text-blue-700">
+                                <h1>Infrastructure & Cloud Services</h1>
+                            </a>
+                        </div>
+                        <div class="text-slate-500 mb-4">
+                            <p>Our experts ensure your IT infrastructure is optimized and secure. We offer cloud
+                                migration.</p>
+                        </div>
+                        <div class="text-slate-500 hover:text-blue-500 py-3">
+                            <a href="#">Read Details <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div class="swiper-slide   rounded-2xl bg-white p-4 md:p-5 shadow-lg">
+                        <div class="flex justify-center py-5 md:py-7">
+                            <img src="./assets/images/service_9_3.jpg" alt="Service 2" class="rounded-2xl">
+                        </div>
+                        <div class="text-xl md:text-2xl font-bold mb-4">
+                            <a href="#" class="hover:text-blue-700">
+                                <h1>Software & Application Services</h1>
+                            </a>
+                        </div>
+                        <div class="text-slate-500 mb-4">
+                            <p>We can help you leverage technology to streamline processes and enhance productivity.</p>
+                        </div>
+                        <div class="text-slate-500 hover:text-blue-500 py-3">
+                            <a href="#">Read Details <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="swiper-slide   rounded-2xl bg-white p-4 md:p-5 shadow-lg">
+                        <div class="flex justify-center py-5 md:py-7">
+                            <img src="./assets/images/service_9_1.jpg" alt="Service 3" class="rounded-2xl">
+                        </div>
+                        <div class="text-xl md:text-2xl font-bold mb-4">
+                            <a href="#" class="hover:text-blue-700">
+                                <h1>IT Strategy & Planning</h1>
+                            </a>
+                        </div>
+                        <div class="text-slate-500 mb-4">
+                            <p>We assist you in crafting a robust IT strategy and roadmap that aligns with your overall
+                                business.</p>
+                        </div>
+                        <div class="text-slate-500 hover:text-blue-500 py-3">
+                            <a href="#">Read Details <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- section 1 end -->
+
+    <!-- section 2 -->
+
+    <section class="bg-white py-20">
+        <div
+            class="max-w-[110rem] mx-auto px-3 lg:px-10 py-10 bg-[url('./assets/images/service_bg_18.jpg')] rounded-2xl">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-10">
+                    <h2 class="text-3xl font-bold text-gray-800">Infrastructure & Cloud Services</h2>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-8 items-center">
+                    <!-- Text Content -->
+                    <div class="flex justify-end items-center md:justify-start order-1 md:order-2 mb-10">
+                        <p class="flex text-lg font-semibold justify-center text-gray-600">
+                            Our Infrastructure & Cloud Services are designed to empower your business with scalable,
+                            secure,
+                            and reliable IT solutions.Whether you
+                            are
+                            migrating to the cloud, optimizing your current infrastructure, or looking for ongoing
+                            management, our team of experts is here to support you every step of the way. With our
+                            services,
+                            you can ensure maximum uptime, data security, and the flexibility to grow your business
+                            seamlessly. <br>
+                            <br>
+
+                            Migrating to the cloud can be a complex process, but our team of experts is here to simplify
+                            it for you. We handle everything from planning and execution to ongoing management, ensuring
+                            a seamless transition with minimal disruption to your operations. Our services also include
+                            optimizing existing infrastructures, enabling you to get the most out of your current
+                            investments. <br>
+                            <br>
+
+
+                            Security and reliability are at the core of our services. We implement cutting-edge
+                            technologies to protect your data and ensure maximum uptime. With our Infrastructure & Cloud
+                            Services, you gain the flexibility to scale your operations as your business grows, without
+                            worrying about the underlying IT complexities. Our dedicated support team is available 24/7
+                            to assist you, providing peace of mind that your business is in safe hands.
+                        </p>
+                    </div>
+
+                    <!-- Image Content -->
+                    <div class="flex order-2 md:order-1 p-5">
+                        <img src="./assets/images/service_9_2.jpg" alt="Infrastructure & Cloud Services"
+                            class="w-full h-auto object-cover rounded-lg shadow-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 2 end... -->
+    <!-- section 3 -->
+
+    <section class="bg-white ">
+        <div
+            class="max-w-[110rem] mx-auto px-3 lg:px-10 py-10 bg-[url('./assets/images/service_bg_18.jpg')] rounded-2xl">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-10">
+                    <h2 class="text-3xl font-bold text-gray-800">Software & Application Services</h2>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-8 items-center">
+                    <!-- Text Content -->
+                    <div class="flex justify-end items-center md:justify-start order-1 md:order-2 mb-10">
+                        <p class="flex text-lg font-semibold justify-center text-gray-600">
+                            Our Software & Application Services at Webteck are designed to transform your business
+                            operations by leveraging cutting-edge technology and innovative software solutions. We
+                            specialize in developing custom software tailored to meet the unique needs of your business,
+                            ensuring that your operations run efficiently and effectively. <br>
+                            <br>
+
+                            We understand that off-the-shelf software doesn't always meet the specific demands of every
+                            business. That's why we focus on creating bespoke applications that are fully aligned with
+                            your business goals. From initial concept and design to development and deployment, we work
+                            closely with you to ensure that every feature of your software supports your business
+                            strategy.
+                            <br>
+                            <br>
+
+                            In addition to development, we offer comprehensive support and maintenance services to keep
+                            your software running smoothly long after deployment. We stay up-to-date with the latest
+                            technologies and industry trends to continuously improve and update your applications. Our
+                            team is committed to ensuring that your software remains secure, scalable, and optimized for
+                            performance, allowing you to focus on growing your business. 
+                        </p>
+                    </div>
+
+                    <!-- Image Content -->
+                    <div class="flex order-2 md:order-1 p-5">
+                        <img src="./assets/images/service_9_3.jpg" alt="Infrastructure & Cloud Services"
+                            class="w-full h-auto object-cover rounded-lg shadow-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- section 3 end... -->
+
+
+</body>
+
+<link rel="stylesheet" href="./assets/vendor/@fortawesome/fontawesome-free/js/all.min.js">
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Your custom Swiper initialization script -->
+<script src="./index.js/swiper-init.js"></script>
+<script src="./index.js/sec3.js"></script>
+
+<script src="./index.js/sec4.js"></script>
+
+
+<script src="./index.js/company.js"></script>
+
+<script src="./index.js/sec5.js"></script>
+
+</html>
