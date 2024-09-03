@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function () {
     const swiper = new Swiper('.companySwiper', {
         slidesPerView: 1,
-        spaceBetween: 10,
+        spaceBetween: 15,
         loop: true,
         speed: 3000, // Slide transition speed
-        autoplay: false, // Disable autoplay completely
+        autoplay: true, // Disable autoplay completely
         breakpoints: {
             640: {
                 slidesPerView: 1,

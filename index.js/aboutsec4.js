@@ -1,10 +1,7 @@
-var swiper = new Swiper(".myCustomSwiper", {
+var swiper = new Swiper(".mysec4Swiper", {
     slidesPerView: 1,
     spaceBetween: 10,
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
+   
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
@@ -23,7 +20,7 @@ var swiper = new Swiper(".myCustomSwiper", {
             spaceBetween: 20,
         },
         1024: {
-            slidesPerView: 3,
+            slidesPerView: 4,
             spaceBetween: 30,
         },
     },
