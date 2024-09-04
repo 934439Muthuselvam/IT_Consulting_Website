@@ -12,12 +12,41 @@
 </head>
 
 <body>
-    <header class="sticky top-0 z-20 ">
-        <div class="w-full bg-[#393941]">
+    <header>
+        <div class="w-full bg-[#684df4]">
+            <nav class="  max-w-[85rem] w-full mx-auto px-5 py-7 ">
+                <div class="flex flex-row lg:justify-between justify-center text-center ">
+                    <div class="hidden text-white lg:flex items-center gap-5 ">
+                        <div>
+                            <i class="fa-solid fa-map-location-dot"></i> 54 NJ-12, Flemington, United States
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-phone"></i> +153-987-3657
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-envelope"> </i> info@webteck.com
+                        </div>
+
+                    </div>
+
+                    <div class="flex gap-3  items-center justify-center  text-white font-semibold">
+                        <h1>Follow Us On :</h1>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-square-instagram"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+        <!--  -->
+        <div class="w-full bg-white">
             <nav class="  max-w-[85rem] w-full mx-auto px-5 py-7 ">
                 <div class="flex justify-between text-center ">
                     <div class="text-white flex items-center ">
-                        <img src="./assets/images/logo-white3 (2).svg" alt="">
+                        <img src="./assets/images/logo (2).svg" alt="">
                     </div>
 
                     <!--<div class="xl:hidden text-white text-3xl ">
@@ -27,7 +56,7 @@
 
                     <div class="xl:hidden relative inline-block">
                         <button onclick="toggleDropdown()"
-                            class="bg-blue-500 text-white px-4 py-2 text-base font-semibold rounded focus:outline-none focus:ring-2 focus:ring-blue-300">
+                            class="bg-[#684df4] text-white px-4 py-2 text-base font-semibold rounded focus:outline-none focus:ring-2 focus:ring-blue-300">
                             <i class="fa-solid fa-bars"></i>
                         </button>
                         <div id="myDropdown"
@@ -45,7 +74,7 @@
 
 
 
-                    <div class="hidden xl:flex gap-7  items-center text-white font-semibold">
+                    <div class="hidden xl:flex gap-7  items-center text-black  font-semibold">
                         <a href="index.html">Home </a>
                         <a href="about.html">About Us</a>
                         <a href="services.html">Services </a>
@@ -59,201 +88,445 @@
             </nav>
         </div>
     </header>
-    <!-- section 1 start -->
+    <!-- section 1 -->
     <section>
-        <div
-            class="max-w-[120rem] mx-auto px-3 lg:px-10 py-10  bg-[url('./assets/images/service_bg_18.jpg')] rounded-2xl">
-            <div class="flex justify-center items-center gap-2 text-blue-500 text-lg mb-5">
-                <img src="./assets/images/title_shape_5.svg" alt="Title Shape" />
-                <h3 class="text-center">OUR SERVICES</h3>
-            </div>
-            <div class="flex justify-center text-xl lg:text-2xl font-bold mb-10">
-                <h1 class="text-center">Tailored IT Solutions For Your Needs</h1>
-            </div>
-
-            <!-- Swiper -->
-            <div class="swiper myCustomSwiper">
-                <div class="swiper-wrapper">
-                    <!-- Service 1 -->
-                    <div class="swiper-slide  rounded-2xl bg-white p-4 md:p-5 shadow-lg">
-                        <div class="flex justify-center py-5 md:py-7">
-                            <img src="./assets/images/service_9_2.jpg" alt="Service 1" class="rounded-2xl">
-                        </div>
-                        <div class="text-xl md:text-2xl font-bold mb-4">
-                            <a href="#" class="hover:text-blue-700">
-                                <h1>Infrastructure & Cloud Services</h1>
-                            </a>
-                        </div>
-                        <div class="text-slate-500 mb-4">
-                            <p>Our experts ensure your IT infrastructure is optimized and secure. We offer cloud
-                                migration.</p>
-                        </div>
-                        <div class="text-slate-500 hover:text-blue-500 py-3">
-                            <a href="#">Read Details <i class="fa-solid fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-
-                    <!-- Service 2 -->
-                    <div class="swiper-slide   rounded-2xl bg-white p-4 md:p-5 shadow-lg">
-                        <div class="flex justify-center py-5 md:py-7">
-                            <img src="./assets/images/service_9_3.jpg" alt="Service 2" class="rounded-2xl">
-                        </div>
-                        <div class="text-xl md:text-2xl font-bold mb-4">
-                            <a href="#" class="hover:text-blue-700">
-                                <h1>Software & Application Services</h1>
-                            </a>
-                        </div>
-                        <div class="text-slate-500 mb-4">
-                            <p>We can help you leverage technology to streamline processes and enhance productivity.</p>
-                        </div>
-                        <div class="text-slate-500 hover:text-blue-500 py-3">
-                            <a href="#">Read Details <i class="fa-solid fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-
-                    <!-- Service 3 -->
-                    <div class="swiper-slide  rounded-2xl bg-white p-4 md:p-5 shadow-lg">
-                        <div class="flex justify-center py-5 md:py-7">
-                            <img src="./assets/images/service_9_1.jpg" alt="Service 3" class="rounded-2xl">
-                        </div>
-                        <div class="text-xl md:text-2xl font-bold mb-4">
-                            <a href="#" class="hover:text-blue-700">
-                                <h1>IT Strategy & Planning</h1>
-                            </a>
-                        </div>
-                        <div class="text-slate-500 mb-4">
-                            <p>We assist you in crafting a robust IT strategy and roadmap that aligns with your overall
-                                business.</p>
-                        </div>
-                        <div class="text-slate-500 hover:text-blue-500 py-3">
-                            <a href="#">Read Details <i class="fa-solid fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-
-                    <!-- Repeat Services -->
-                    <!-- Service 1 -->
-                    <div class="swiper-slide   rounded-2xl bg-white p-4 md:p-5 shadow-lg">
-                        <div class="flex justify-center py-5 md:py-7">
-                            <img src="./assets/images/service_9_2.jpg" alt="Service 1" class="rounded-2xl">
-                        </div>
-                        <div class="text-xl md:text-2xl font-bold mb-4">
-                            <a href="#" class="hover:text-blue-700">
-                                <h1>Infrastructure & Cloud Services</h1>
-                            </a>
-                        </div>
-                        <div class="text-slate-500 mb-4">
-                            <p>Our experts ensure your IT infrastructure is optimized and secure. We offer cloud
-                                migration.</p>
-                        </div>
-                        <div class="text-slate-500 hover:text-blue-500 py-3">
-                            <a href="#">Read Details <i class="fa-solid fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-
-                    <!-- Service 2 -->
-                    <div class="swiper-slide   rounded-2xl bg-white p-4 md:p-5 shadow-lg">
-                        <div class="flex justify-center py-5 md:py-7">
-                            <img src="./assets/images/service_9_3.jpg" alt="Service 2" class="rounded-2xl">
-                        </div>
-                        <div class="text-xl md:text-2xl font-bold mb-4">
-                            <a href="#" class="hover:text-blue-700">
-                                <h1>Software & Application Services</h1>
-                            </a>
-                        </div>
-                        <div class="text-slate-500 mb-4">
-                            <p>We can help you leverage technology to streamline processes and enhance productivity.</p>
-                        </div>
-                        <div class="text-slate-500 hover:text-blue-500 py-3">
-                            <a href="#">Read Details <i class="fa-solid fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-
-                    <!-- Service 3 -->
-                    <div class="swiper-slide   rounded-2xl bg-white p-4 md:p-5 shadow-lg">
-                        <div class="flex justify-center py-5 md:py-7">
-                            <img src="./assets/images/service_9_1.jpg" alt="Service 3" class="rounded-2xl">
-                        </div>
-                        <div class="text-xl md:text-2xl font-bold mb-4">
-                            <a href="#" class="hover:text-blue-700">
-                                <h1>IT Strategy & Planning</h1>
-                            </a>
-                        </div>
-                        <div class="text-slate-500 mb-4">
-                            <p>We assist you in crafting a robust IT strategy and roadmap that aligns with your overall
-                                business.</p>
-                        </div>
-                        <div class="text-slate-500 hover:text-blue-500 py-3">
-                            <a href="#">Read Details <i class="fa-solid fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-
-
-                    <!-- Repeat Services -->
-                    <!-- Service 1 -->
-                    <div class="swiper-slide   rounded-2xl bg-white p-4 md:p-5 shadow-lg">
-                        <div class="flex justify-center py-5 md:py-7">
-                            <img src="./assets/images/service_9_2.jpg" alt="Service 1" class="rounded-2xl">
-                        </div>
-                        <div class="text-xl md:text-2xl font-bold mb-4">
-                            <a href="#" class="hover:text-blue-700">
-                                <h1>Infrastructure & Cloud Services</h1>
-                            </a>
-                        </div>
-                        <div class="text-slate-500 mb-4">
-                            <p>Our experts ensure your IT infrastructure is optimized and secure. We offer cloud
-                                migration.</p>
-                        </div>
-                        <div class="text-slate-500 hover:text-blue-500 py-3">
-                            <a href="#">Read Details <i class="fa-solid fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-
-                    <!-- Service 2 -->
-                    <div class="swiper-slide   rounded-2xl bg-white p-4 md:p-5 shadow-lg">
-                        <div class="flex justify-center py-5 md:py-7">
-                            <img src="./assets/images/service_9_3.jpg" alt="Service 2" class="rounded-2xl">
-                        </div>
-                        <div class="text-xl md:text-2xl font-bold mb-4">
-                            <a href="#" class="hover:text-blue-700">
-                                <h1>Software & Application Services</h1>
-                            </a>
-                        </div>
-                        <div class="text-slate-500 mb-4">
-                            <p>We can help you leverage technology to streamline processes and enhance productivity.</p>
-                        </div>
-                        <div class="text-slate-500 hover:text-blue-500 py-3">
-                            <a href="#">Read Details <i class="fa-solid fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-
-                    <!-- Service 3 -->
-                    <div class="swiper-slide   rounded-2xl bg-white p-4 md:p-5 shadow-lg">
-                        <div class="flex justify-center py-5 md:py-7">
-                            <img src="./assets/images/service_9_1.jpg" alt="Service 3" class="rounded-2xl">
-                        </div>
-                        <div class="text-xl md:text-2xl font-bold mb-4">
-                            <a href="#" class="hover:text-blue-700">
-                                <h1>IT Strategy & Planning</h1>
-                            </a>
-                        </div>
-                        <div class="text-slate-500 mb-4">
-                            <p>We assist you in crafting a robust IT strategy and roadmap that aligns with your overall
-                                business.</p>
-                        </div>
-                        <div class="text-slate-500 hover:text-blue-500 py-3">
-                            <a href="#">Read Details <i class="fa-solid fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-
-
+        <div class="flex  w-full h-[500px]  bg-cover bg-center"
+            style="background-image: url('./assets/images/breadcumb-bg.jpg');">
+            <div class="flex flex-col justify-center items-center z-10 text-white  p-8   w-full">
+                <h1 class="text-4xl font-bold mb-4">Services</h1>
+                <div class=" ">
+                    <a href="index.html">Home </a>>>
+                    <a href="services.html">Services</a>
                 </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- section 1  end...-->
+    <!-- section 2 -->
+    <section>
+        <div class="max-w-[85rem]  w-full mx-auto py-20">
+            <!-- Row of Cards -->
+            <div class="grid justify-center m-5  gap-10 lg:grid-cols-3 sm:grid-cols-2">
+                <!-- Card 1 -->
+                <div class="bg-white rounded-2xl p-6 shadow-lg  lg:p-10">
+                    <div class="flex justify-between items-center">
+                        <div
+                            class="flex items-center justify-center text-[#684df4] bg-[#e2e7fc] rounded-full mb-5 w-16 h-16 sm:w-20 sm:h-20 shadow-md">
+                            <img src="./assets/images/service_card_1.svg" alt="Web Development">
+                        </div>
+                        <div>
+                            <div class="text-[60px] sm:text-[100px] pb-6 text-[#e2e7fc] sm:pb-10">01</div>
+                        </div>
+                    </div>
+                    <div>
+                        <h1 class="mb-4 font-bold text-xl sm:text-2xl">Web Development</h1>
+                        <p class="mb-4 text-sm sm:text-base">Conveniently promote transparent materials<br>and
+                            stand-alone strategic theme areas.</p>
+                        <button
+                            class="bg-[#e2e7fc] p-2 sm:p-3 font-semibold rounded-md text-black hover:bg-white hover:text-black">
+                            READ MORE<i class="fa-solid fa-arrow-right ml-2"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-white rounded-2xl p-6 shadow-lg lg:p-10">
+                    <div class="flex justify-between items-center">
+                        <div
+                            class="flex items-center justify-center text-[#684df4] bg-[#e2e7fc] rounded-full mb-5 w-16 h-16 sm:w-20 sm:h-20 shadow-md">
+                            <img src="./assets/images/service_card_2.svg" alt="Web Development">
+                        </div>
+                        <div>
+                            <div class="text-[60px] sm:text-[100px] pb-6 text-[#e2e7fc] sm:pb-10">02</div>
+                        </div>
+                    </div>
+                    <div>
+                        <h1 class="mb-4 font-bold text-xl sm:text-2xl">UI/UX Design</h1>
+                        <p class="mb-4 text-sm sm:text-base">Conveniently promote transparent materials and<br>
+                            stand-alone strategic theme areas.</p>
+                        <button
+                            class="bg-[#e2e7fc] p-2 sm:p-3 font-semibold rounded-md text-black hover:bg-white hover:text-black">
+                            READ MORE<i class="fa-solid fa-arrow-right ml-2"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-white rounded-2xl p-6 shadow-lg lg:p-10">
+                    <div class="flex justify-between items-center">
+                        <div
+                            class="flex items-center justify-center text-[#684df4] bg-[#e2e7fc] rounded-full mb-5 w-16 h-16 sm:w-20 sm:h-20 shadow-md">
+                            <img src="./assets/images/service_card_3.svg" alt="Web Development">
+                        </div>
+                        <div>
+                            <div class="text-[60px] sm:text-[100px] pb-6  text-[#e2e7fc] sm:pb-10">03</div>
+                        </div>
+                    </div>
+                    <div>
+                        <h1 class="mb-4 font-bold text-xl sm:text-2xl">Digital Marketing</h1>
+                        <p class="mb-4 text-sm sm:text-base">Conveniently promote transparent materials<br>and
+                            stand-alone strategic theme areas.</p>
+                        <button
+                            class="bg-[#e2e7fc] p-2 sm:p-3 font-semibold rounded-md text-black hover:bg-white hover:text-black">
+                            READ MORE<i class="fa-solid fa-arrow-right ml-2"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!--  Cards 4 -->
+                <div class="bg-white rounded-2xl p-6 shadow-lg lg:p-10">
+                    <div class="flex justify-between items-center">
+                        <div
+                            class="flex items-center justify-center text-[#684df4] bg-[#e2e7fc] rounded-full mb-5 w-16 h-16 sm:w-20 sm:h-20 shadow-md">
+                            <img src="./assets/images/service_card_4.svg" alt="Web Development">
+                        </div>
+                        <div>
+                            <div class="text-[60px] sm:text-[100px] text-[#e2e7fc] pb-6 sm:pb-10">04</div>
+                        </div>
+                    </div>
+                    <div>
+                        <h1 class="mb-4 font-bold text-xl sm:text-2xl">Business Analysis</h1>
+                        <p class="mb-4 text-sm sm:text-base">Conveniently promote transparent materials<br>and
+                            stand-alone strategic theme areas.</p>
+                        <button
+                            class="bg-[#e2e7fc] p-2 sm:p-3 font-semibold rounded-md text-black hover:bg-white hover:text-black">
+                            READ MORE<i class="fa-solid fa-arrow-right ml-2"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!--  Cards 5 -->
+                <div class="bg-white rounded-2xl p-6 shadow-lg lg:p-10">
+                    <div class="flex justify-between items-center">
+                        <div
+                            class="flex items-center justify-center text-[#684df4] bg-[#e2e7fc] rounded-full mb-5 w-16 h-16 sm:w-20 sm:h-20 shadow-md">
+                            <img src="./assets/images/service_card_5.svg" alt="Web Development">
+                        </div>
+                        <div>
+                            <div class="text-[60px] sm:text-[100px] pb-6 text-[#e2e7fc] sm:pb-10">05</div>
+                        </div>
+                    </div>
+                    <div>
+                        <h1 class="mb-4 font-bold text-xl sm:text-2xl">Software Services</h1>
+                        <p class="mb-4 text-sm sm:text-base">Conveniently promote transparent materials<br>and
+                            stand-alone strategic theme areas.</p>
+                        <button
+                            class="bg-[#e2e7fc] p-2 sm:p-3 font-semibold rounded-md text-black hover:bg-white hover:text-black">
+                            READ MORE<i class="fa-solid fa-arrow-right ml-2"></i>
+                        </button>
+                    </div>
+                </div>
+                <!--  Cards 6 -->
+                <div class="bg-white rounded-2xl p-6 shadow-lg lg:p-10">
+                    <div class="flex justify-between items-center">
+                        <div
+                            class="flex items-center justify-center text-[#684df4] bg-[#e2e7fc] rounded-full mb-5 w-16 h-16 sm:w-20 sm:h-20 shadow-md">
+                            <img src="./assets/images/service_card_6.svg" alt="Web Development">
+                        </div>
+                        <div>
+                            <div class="text-[60px] sm:text-[100px] pb-6 text-[#e2e7fc] sm:pb-10">06</div>
+                        </div>
+                    </div>
+                    <div>
+                        <h1 class="mb-4 font-bold text-xl sm:text-2xl">Machine Learning</h1>
+                        <p class="mb-4 text-sm sm:text-base">Conveniently promote transparent materials<br>and
+                            stand-alone strategic theme areas.</p>
+                        <button
+                            class="bg-[#e2e7fc] p-2 sm:p-3 font-semibold rounded-md text-black hover:bg-white hover:text-black">
+                            READ MORE<i class="fa-solid fa-arrow-right ml-2"></i>
+                        </button>
+                    </div>
+                </div>
+                <!--  Cards 7 -->
+                <div class="bg-white rounded-2xl p-6 shadow-lg lg:p-10">
+                    <div class="flex justify-between items-center">
+                        <div
+                            class="flex items-center justify-center text-[#684df4] bg-[#e2e7fc] rounded-full mb-5 w-16 h-16 sm:w-20 sm:h-20 shadow-md">
+                            <img src="./assets/images/service_card_7.svg" alt="Web Development">
+                        </div>
+                        <div>
+                            <div class="text-[60px] sm:text-[100px] text-[#e2e7fc] pb-6 sm:pb-10">07</div>
+                        </div>
+                    </div>
+                    <div>
+                        <h1 class="mb-4 font-bold text-xl sm:text-2xl">IT Management</h1>
+                        <p class="mb-4 text-sm sm:text-base">Conveniently promote transparent materials<br>and
+                            stand-alone strategic theme areas.</p>
+                        <button
+                            class="bg-[#e2e7fc] p-2 sm:p-3 font-semibold rounded-md text-black hover:bg-white hover:text-black">
+                            READ MORE<i class="fa-solid fa-arrow-right ml-2"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!--  Cards 8 -->
+                <div class="bg-white rounded-2xl p-6 shadow-lg lg:p-10">
+                    <div class="flex justify-between items-center">
+                        <div
+                            class="flex items-center justify-center text-[#684df4] bg-[#e2e7fc] rounded-full mb-5 w-16 h-16 sm:w-20 sm:h-20 shadow-md">
+                            <img src="./assets/images/service_card_8.svg" alt="Web Development">
+                        </div>
+                        <div>
+                            <div class="text-[60px] sm:text-[100px] pb-6 text-[#e2e7fc] sm:pb-10">08</div>
+                        </div>
+                    </div>
+                    <div>
+                        <h1 class="mb-4 font-bold text-xl sm:text-2xl">Cloud Computing</h1>
+                        <p class="mb-4 text-sm sm:text-base">Conveniently promote transparent materials<br>and
+                            stand-alone strategic theme areas.</p>
+                        <button
+                            class="bg-[#e2e7fc] p-2 sm:p-3 font-semibold rounded-md text-black hover:bg-white hover:text-black">
+                            READ MORE<i class="fa-solid fa-arrow-right ml-2"></i>
+                        </button>
+                    </div>
+                </div>
+                <!--  Cards 9 -->
+                <div class="bg-white rounded-2xl p-6 shadow-lg lg:p-10">
+                    <div class="flex justify-between items-center">
+                        <div
+                            class="flex items-center justify-center text-[#684df4] bg-[#e2e7fc] rounded-full mb-5 w-16 h-16 sm:w-20 sm:h-20 shadow-md">
+                            <img src="./assets/images/service_card_9.svg" alt="Web Development">
+                        </div>
+                        <div>
+                            <div class="text-[60px] sm:text-[100px] pb-6 text-[#e2e7fc] sm:pb-10">09</div>
+                        </div>
+                    </div>
+                    <div>
+                        <h1 class="mb-4 font-bold text-xl sm:text-2xl">Backup & Recovery</h1>
+                        <p class="mb-4 text-sm sm:text-base">Conveniently promote transparent materials<br>and
+                            stand-alone strategic theme areas.</p>
+                        <button
+                            class="bg-[#e2e7fc] p-2 sm:p-3 font-semibold rounded-md text-black hover:bg-white hover:text-black">
+                            READ MORE<i class="fa-solid fa-arrow-right ml-2"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- section 2 end... -->
+
+    <!-- section 3 .. -->
+    <section>
+        <div class=" w-full mx-auto h-full py-10 bg-[url('/assets/images/cta_bg_3.jpg')]">
+            <div class="flex justify-center gap-3 py-10">
+                <div>
+                    <img src="./assets/images/title_shape_2.svg" alt="">
+                </div>
+                <div class="text-[#694eeb]">
+                    CONTACT US
+                </div>
+            </div>
+            <div class="flex justify-center items-center  text-3xl mb-5 font-bold text-white ">
+                <p> Need Any Kind Of IT Solution For </p>
+            </div>
+            <div class="flex justify-center mb-10 text-5xl text-[#694eeb]">
+                <h3> Your Business?</h3>
+            </div>
+            <div class="flex justify-center">
+                <button
+                    class="bg-[#e2e7fc] p-5  sm:p-3 font-semibold rounded-full text-black hover:bg-[#694eeb] hover:text-white">
+                    Get In Touch<i class="fa-solid fa-arrow-right ml-2"></i>
+                </button>
             </div>
         </div>
 
 
-    </section>
+        <div class=" w-full mx-auto h-full py-10 bg-[url('/assets/images/process_bg_1.png')] ">
+            <div class="flex justify-center text-[#694eeb] text-5xl font-bold py-10 ">
+                <h1>PROCESS</h1>
+            </div>
 
-    <!-- section 1 end -->
+            <div class="flex justify-center gap-3 py-10">
+                <div>
+                    <img src="./assets/images/title_shape_2.svg" alt="">
+                </div>
+                <div class="text-[#694eeb]">
+                    WORK PROCESS
+                </div>
+            </div>
+            <div class="flex justify-center text-5xl mb-10 font-bold text-black">
+                <p>How to work It! </p>
+            </div>
+            <div>
+                <div class="grid justify-center gap-10 lg:grid-cols-4 m-10 py-10 sm:grid-cols-2 grid-cols-1">
+                    <!-- Card 1 -->
+                    <div class="bg-white rounded-2xl p-5 shadow-lg flex flex-col">
+                        <div class="flex justify-center items-center mb-5">
+                            <div class="flex items-center justify-center text-[#684df4] bg-[#e2e7fc] rounded-full w-16 h-16 sm:w-20 sm:h-20 shadow-md">
+                                <img src="./assets/images/process_card_1.svg" alt="Select a project">
+                            </div>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <h1 class="mb-4 font-bold text-xl sm:text-2xl text-center">Select a project</h1>
+                            <p class="mb-4 text-sm sm:text-base text-center">Continua scale empowered<br> metrics with cost-effective <br> innovation.</p>
+                        </div>
+                    </div>
+                
+                    <!-- Card 2 -->
+                    <div class="bg-white rounded-2xl shadow-lg p-5 flex flex-col">
+                        <div class="flex justify-center items-center mb-5">
+                            <div class="flex items-center justify-center text-[#684df4] bg-[#e2e7fc] rounded-full w-16 h-16 sm:w-20 sm:h-20 shadow-md">
+                                <img src="./assets/images/process_card_2.svg" alt="Project analysis">
+                            </div>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <h1 class="mb-4 font-bold text-xl sm:text-2xl text-center">Project analysis</h1>
+                            <p class="mb-4 text-sm sm:text-base text-center">Continua scale empowered<br> metrics with cost-effective <br> innovation.</p>
+                           
+                        </div>
+                    </div>
+                
+                    <!-- Card 3 -->
+                    <div class="bg-white rounded-2xl shadow-lg p-5 flex flex-col">
+                        <div class="flex justify-center items-center mb-5">
+                            <div class="flex items-center justify-center text-[#684df4] bg-[#e2e7fc] rounded-full w-16 h-16 sm:w-20 sm:h-20 shadow-md">
+                                <img src="./assets/images/process_card_3.svg" alt="Plan Execute">
+                            </div>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <h1 class="mb-4 font-bold text-xl sm:text-2xl text-center">Plan Execute</h1>
+                            <p class="mb-4 text-sm sm:text-base text-center">Continua scale empowered<br> metrics with cost-effective <br> innovation.</p>
+                        </div>
+                    </div>
+                
+                    <!-- Card 4  -->
+                    <div class="bg-white rounded-2xl shadow-lg p-5 flex flex-col">
+                        <div class="flex justify-center items-center mb-5">
+                            <div class="flex items-center justify-center text-[#684df4] bg-[#e2e7fc] rounded-full w-16 h-16 sm:w-20 sm:h-20 shadow-md">
+                                <img src="./assets/images/process_card_4.svg" alt="Deliver result">
+                            </div>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <h1 class="mb-4 font-bold text-xl sm:text-2xl text-center">Deliver result</h1>
+                            <p class="mb-4 text-sm sm:text-base text-center">Continua scale empowered<br> metrics with cost-effective <br> innovation.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- section 3 end... -->
+
+      <!-- section 6 footer start...-->
+
+      <section>
+        <div class=" w-full mx-auto px-10 mt-15 py-20  rounded-t-3xl bg-[url('./assets/images/footer_bg_17.jpg')]">
+            <div class="grid  xl:grid-cols-3 justify-between items-center gap-5 mb-20 ">
+                <div class="flex lg:justify-center items-center gap-4  ">
+                    <div class="flex items-center justify-center text-white bg-blue-700 rounded-full  w-10 h-10 ">
+                        <i class="fa-solid fa-location-dot "></i>
+
+                    </div>
+                    <div>
+                        <h3 class="text-slate-500">
+                            ADDRESS</h3>
+                        <h3 class="text-white font-semibol">12 Division Park, SKY</h3>
+                        <h3 class="text-white font-semibol">12546. Berlin</h3>
+                    </div>
+                </div>
+
+                <div class="flex  lg:justify-center items-center gap-4 ">
+                    <div class="flex  justify-center items-center text-white bg-blue-700 rounded-full w-10 h-10 ">
+                        <i class="fa-solid fa-envelope"></i>
+
+                    </div>
+                    <div>
+                        <h3 class="text-slate-500">
+                            EMAIL</h3>
+                        <h3 class="hover:text-blue-600 text-white font-semibol">help@webteck-mail.com</h3>
+                        <h3 class=" hover:text-blue-600 text-white font-semibol">24/7@webteck-online.com</h3>
+                    </div>
+                </div>
+
+
+                <div class="flex  lg:justify-center  items-center gap-4 ">
+                    <div class="flex items-center justify-center text-white bg-blue-700 rounded-full w-10 h-10 ">
+                        <i class="fa-solid fa-phone"></i>
+
+                    </div>
+                    <div>
+                        <h3 class="text-slate-500">
+                            CALL</h3>
+                        <h3 class="hover:text-blue-600 text-white font-semibol">+(215) 2536-32156</h3>
+                        <h3 class=" hover:text-blue-600 text-white font-semibol">+(452) 3694-21587</h3>
+                    </div>
+                </div>
+
+            </div>
+            <div class="max-w-[80rem] bg-[#051234]  pt-10 px-10 pb-3  rounded-2xl mx-auto  mb-10 ">
+
+                <div class="grid lg:grid-cols-2 gap-5 justify-between items-center mb-10">
+                    <!-- Logo Section -->
+                    <div class="text-white mb-10 md:mb-0">
+                        <img src="./assets/images/logo-white3 (2).svg" alt="Logo">
+                    </div>
+
+                    <!-- Text Section -->
+                    <div class="text-white">
+                        <p>Their team's technical expertise is truly outstanding. They took the time to thoroughly
+                            understand our goals and requirements and then designed and implemented solutions that not
+                            only addressed our immediate challenges but also positioned us for future growth.</p>
+                    </div>
+                </div>
+
+
+                <div class="lg:flex justify-between">
+                    <div
+                        class="lg:flex md:justify-start justify-center  items-center gap-4 text-white font-semibold mb-10">
+                        <div>
+                            <a href="#" class="hover:text-blue-600">Home</a>
+                        </div>
+                        <div>
+                            <a href="#" class="hover:text-blue-600">About Us</a>
+                        </div>
+                        <div>
+                            <a href="#" class="hover:text-blue-600">Services</a>
+                        </div>
+                        <div>
+                            <a href="#" class="hover:text-blue-600">Portfolio</a>
+                        </div>
+                        <div>
+                            <a href="#" class="hover:text-blue-600">Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="flex justify-center md:justify-start text-white gap-5 mt-4 md:mt-0">
+                        <a href=""
+                            class="flex justify-center items-center hover:bg-blue-700 border-2 border-black w-10 h-10 rounded-full">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href=""
+                            class="flex justify-center items-center hover:bg-blue-700 border-2 border-black w-10 h-10 rounded-full">
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </a>
+                        <a href=""
+                            class="flex justify-center items-center hover:bg-blue-700 border-2 border-black w-10 h-10 rounded-full">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href=""
+                            class="flex justify-center items-center hover:bg-blue-700 border-2 border-black w-10 h-10 rounded-full">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- <p class="overline text-white">Copyright 2024 Themeholy. All Rights Reserved.</p> -->
+
+
+        </div>
+
+        </div>
+
+        </div>
+        </div>
+    </section>
+    
+
 
     <!-- section 2 -->
 
@@ -339,7 +612,7 @@
                             your software running smoothly long after deployment. We stay up-to-date with the latest
                             technologies and industry trends to continuously improve and update your applications. Our
                             team is committed to ensuring that your software remains secure, scalable, and optimized for
-                            performance, allowing you to focus on growing your business. 
+                            performance, allowing you to focus on growing your business.
                         </p>
                     </div>
 
@@ -365,13 +638,9 @@
 
 <!-- Your custom Swiper initialization script -->
 <script src="./index.js/swiper-init.js"></script>
-<script src="./index.js/sec3.js"></script>
-
-<script src="./index.js/sec4.js"></script>
 
 
-<script src="./index.js/company.js"></script>
 
-<script src="./index.js/sec5.js"></script>
+
 
 </html>

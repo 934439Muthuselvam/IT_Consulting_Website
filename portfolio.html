@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,23 +10,53 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
+
 <body>
-    <header class="sticky top-0 z-20 ">
-        <div class="w-full bg-[#393941]">
+    <header>
+        <div class="w-full bg-[#684df4]">
+            <nav class="  max-w-[85rem] w-full mx-auto px-5 py-7 ">
+                <div class="flex flex-row lg:justify-between justify-center text-center ">
+                    <div class="hidden text-white lg:flex items-center gap-5 ">
+                        <div>
+                            <i class="fa-solid fa-map-location-dot"></i> 54 NJ-12, Flemington, United States
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-phone"></i> +153-987-3657
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-envelope"> </i> info@webteck.com
+                        </div>
+
+                    </div>
+
+                    <div class="flex gap-3  items-center justify-center  text-white font-semibold">
+                        <h1>Follow Us On :</h1>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-square-instagram"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+        <!--  -->
+        <div class="w-full bg-white">
             <nav class="  max-w-[85rem] w-full mx-auto px-5 py-7 ">
                 <div class="flex justify-between text-center ">
                     <div class="text-white flex items-center ">
-                        <img src="./assets/images/logo-white3 (2).svg" alt="">
+                        <img src="./assets/images/logo (2).svg" alt="">
                     </div>
 
                     <!--<div class="xl:hidden text-white text-3xl ">
                         <i class="fa-solid fa-bars"></i>
                     </div> -->
 
-                   
+
                     <div class="xl:hidden relative inline-block">
                         <button onclick="toggleDropdown()"
-                            class="bg-blue-500 text-white px-4 py-2 text-base font-semibold rounded focus:outline-none focus:ring-2 focus:ring-blue-300">
+                            class="bg-[#684df4] text-white px-4 py-2 text-base font-semibold rounded focus:outline-none focus:ring-2 focus:ring-blue-300">
                             <i class="fa-solid fa-bars"></i>
                         </button>
                         <div id="myDropdown"
@@ -33,15 +64,17 @@
                             <a href="index.html" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">Home</a>
                             <a href="about.html" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">About Us</a>
                             <a href="services.html" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">Services</a>
-                            <a href="portfolio.html" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">Portfolio</a>
+                            <a href="portfolio.html"
+                                class="block px-4 py-2 text-gray-700 hover:bg-gray-200">Portfolio</a>
                             <a href="contact.html" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">Contact</a>
                         </div>
                     </div>
+
                     <script src="./index.js/dropdown.js"></script>
 
 
 
-                    <div class="hidden xl:flex gap-7  items-center text-white font-semibold">
+                    <div class="hidden xl:flex gap-7  items-center text-black  font-semibold">
                         <a href="index.html">Home </a>
                         <a href="about.html">About Us</a>
                         <a href="services.html">Services </a>
@@ -55,21 +88,419 @@
             </nav>
         </div>
     </header>
+
+    <!-- section 1 -->
+    <section>
+        <div class="flex  w-full h-[500px]  bg-cover bg-center"
+            style="background-image: url('./assets/images/breadcumb-bg.jpg');">
+            <div class="flex flex-col justify-center items-center z-10 text-white  p-8   w-full">
+                <h1 class="text-4xl font-bold mb-4">Project Details</h1>
+                <div class=" ">
+                    <a href="index.html">Home </a>>>
+                    <a href="portfolio.html">Project Details</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- section 1  end...-->
+
+    <!--project  -->
+
+    <section>
+        <div class="max-w-[85rem] mx-auto py-20">
+            <!-- First Row -->
+            <div class="grid justify-center m-5 gap-10 lg:grid-cols-3 sm:grid-cols-2">
+                <div class="relative group overflow-hidden ">
+                    <img src="./assets/images/project_1_1.jpg" alt="" class="w-full h-auto transition-transform duration-300 ease-in-out group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <!-- Hover content here -->
+                        <div>
+                            <div class="font-bold text-white text-2xl">IT Consultency</div>
+                            <div class="text-white text-center">Technology</div>
+                           </div>
+                    </div>
+                </div>
+                <div class="relative group overflow-hidden ">
+                    <img src="./assets/images/project_1_2.jpg" alt="" class="w-full h-auto transition-transform duration-300 ease-in-out group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <!-- Hover content here -->
+                         <div>
+                         <div class="font-bold text-white text-2xl">Web Development</div>
+                         <div class="text-white text-center">Technology</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative group overflow-hidden ">
+                    <img src="./assets/images/project_1_3.jpg" alt="" class="w-full h-auto transition-transform duration-300 ease-in-out group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <!-- Hover content here -->
+                        <div>
+                            <div class="font-bold text-white text-2xl">Website Design</div>
+                            <div class="text-white text-center">Technology</div>
+                           </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Repeat for other rows -->
+            <div class="grid justify-center m-5 gap-10 lg:grid-cols-3 sm:grid-cols-2">
+                <div class="relative group overflow-hidden ">
+                    <img src="./assets/images/project_1_4.jpg" alt="" class="w-full h-auto transition-transform duration-300 ease-in-out group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <!-- Hover content here -->
+                        <div>
+                            <div class="font-bold text-white text-2xl">SEO Optimization</div>
+                            <div class="text-white text-center">Marketing</div>
+                           </div>
+                    </div>
+                </div>
+                <div class="relative group overflow-hidden ">
+                    <img src="./assets/images/project_1_5.jpg" alt="" class="w-full h-auto transition-transform duration-300 ease-in-out group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <!-- Hover content here -->
+                        <div>
+                            <div class="font-bold text-white text-2xl">Digital Marketing</div>
+                            <div class="text-white text-center">Marketing</div>
+                           </div>
+                    </div>
+                </div>
+                <div class="relative group overflow-hidden">
+                    <img src="./assets/images/project_1_6.jpg" alt="" class="w-full h-auto transition-transform duration-300 ease-in-out group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <!-- Hover content here -->
+                        <div>
+                            <div class="font-bold text-white text-2xl">Business Analysis</div>
+                            <div class="text-white text-center">Marketing</div>
+                           </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Third Row -->
+            <div class="grid justify-center m-5 gap-10 lg:grid-cols-3 sm:grid-cols-2">
+                <div class="relative group overflow-hidden ">
+                    <img src="./assets/images/project_1_7.jpg" alt="" class="w-full h-auto transition-transform duration-300 ease-in-out group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <!-- Hover content here -->
+                        <div>
+                            <div class="font-bold text-white text-2xl">Software Service</div>
+                            <div class="text-white text-center">Technology</div>
+                           </div>
+                    </div>
+                </div>
+                <div class="relative group overflow-hidden ">
+                    <img src="./assets/images/project_1_8.jpg" alt="" class="w-full h-auto transition-transform duration-300 ease-in-out group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <!-- Hover content here -->
+                        <div>
+                            <div class="font-bold text-white text-2xl">Data Recovery</div>
+                            <div class="text-white text-center">Technology</div>
+                           </div>
+                    </div>
+                </div>
+                <div class="relative group overflow-hidden ">
+                    <img src="./assets/images/project_1_9.jpg" alt="" class="w-full h-auto transition-transform duration-300 ease-in-out group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <!-- Hover content here -->
+                        <div>
+                            <div class="font-bold text-white text-2xl">Cloud Computing</div>
+                            <div class="text-white text-center">Technology</div>
+                           </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+    <!-- section 2..-->
+
+    <section>
+        <div class="max-w-[85rem] w-full mx-auto bg-[#fcfcfc]  px-5 ">
+            <div class="grid lg:grid-cols-2 grid-cols-1 gap-5 ">
+
+                <div>
+                    <img src="./assets/images/project_details.jpg" alt="">
+
+                    <div>
+                        <h1 class="text-2xl font-bold  mt-10 ">IT Consultancy</h1>
+                        <p class="mt-10">Interactively implement top-line ROI vis-a-vis 24/7 e-markets. Assertively
+                            communicate
+                            web-enabled catalysts for change through low-risk high-yield functionalities. Quickly
+                            optimize maintainable data for virtual interfaces. Phosfluorescently monetize cost effective
+                            ROI before leveraged sources. Holisticly envisioneer technically sound imperatives without
+                            just in time networks.</p>
+                    </div>
+                </div>
+
+
+                <div class="flex flex-col justify-end order-1 md:order-2 ">
+                    <div class="flex gap-2 text-blue-500 text-lg  mb-5">
+                        <img src="./assets/images/title_shape_5 (1).svg" alt="">
+                        <h3>ABOUT OUR COMPANY</h3>
+                    </div>
+                    <div class="text-2xl font-bold mb-10">
+                        <h1>Introduce The Masterminds Behind Webteck's IT Solutions.</h1>
+                    </div>
+                    <div class="text-slate-500 mb-10">
+                        <p>Webteck is your trusted partner for all things IT. We're a passionate team of IT
+                            consultants
+                            fueled by a desire to help businesses thrive in today's ever-evolving technological
+                            landscape.</p>
+                    </div>
+
+                    <div class=" rounded-2xl px-5 bg-[#f0f3fa] mb-10">
+                        <div class="grid md:grid-cols-2 justify-between items-center text-2xl mx-10 py-10 ">
+                            <div class="flex md:justify-start gap-3 mb-5">
+                                <img src="./assets/images/about_2_1.svg" alt="">
+                                <div>Our Expert Team</div>
+                            </div>
+
+                            <div class="flex md:justify-end gap-3 mb-5">
+                                <img src="./assets/images/about_2_2.svg " alt="">
+                                <div>Award Winning</div>
+                            </div>
+
+                            <div class="flex md:justify-start gap-3 mb-5">
+                                <img src="./assets/images/about_2_3.svg" alt="">
+                                <div>Transparency</div>
+                            </div>
+
+                            <div class="flex md:justify-end gap-3 mb-5 ">
+                                <img src="./assets/images/about_2_4.svg" alt="">
+                                <div>24/7 Support</div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="grid md:grid-cols-3 gap-10">
+                        <button
+                            class=" bg-[#3f66f2] rounded-full text-white px-7 py-3 hover:bg-black  hover:text-white ">Contact
+                            Us
+                        </button>
+                        <div class="flex gap-4 ">
+                            <div
+                                class="flex items-center justify-center text-[#4164fb] bg-[#ccd6ff] rounded-full w-10 h-10 ">
+                                <i class="fa-solid fa-phone "></i>
+
+                            </div>
+                            <div>
+                                <h3 class="text-slate-500">Call Now!</h3>
+                                <a class="hover:text-blue-600 font-semibold" href="#">+256 3254 2598</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- section 2 end...-->
+
+    <!-- section 3..-->
+
+    <section>
+        <div class="max-w-[85rem] w-full mx-auto bg-[#fcfcfc]  px-5 py-10">
+            <div class="grid lg:grid-cols-2 grid-cols-1 gap-10 ">
+
+
+                <div class="bg-[#f5f5f5] w-full p-10 h-full">
+                    <div>
+                        <h1 class="text-2xl font-bold ">The challenge of project</h1>
+                        <p class="mt-10">Authoritatively scale business meta-services before client-based technologies.
+                            Collaboratively strategize synergistic scenarios rather than flexible action items.
+                            Continually deliver market positioning convergence and mission-critical infrastructures.</p>
+                    </div>
+                    <div class="grid sm:flex gap-5 mt-5 ">
+                        <div class="mt-5"> <img src="./assets/images/project_inner_1-300x207.jpg" alt=""></div>
+
+                        <div class="grid  ">
+                            <div> <i class="fa-solid fa-circle-check"></i> It is a long established fact that reader
+                                will</div>
+                            <div><i class="fa-solid fa-circle-check"></i> There are many variations of passages</div>
+                            <div><i class="fa-solid fa-circle-check"></i> All the Lorem Ipsum generators</div>
+                            <div><i class="fa-solid fa-circle-check"></i> injected humour words which</div>
+                            <div><i class="fa-solid fa-circle-check"></i> There are many variations of passages of</div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- section 3 end...-->
+
+    <!-- section 4..-->
+    <div class="max-w-[85rem] w-full mx-auto bg-[#fcfcfc]  px-5 py-5">
+        <div class="grid lg:grid-cols-2 grid-cols-1 gap-10 ">
+
+
+            <div class="bg-[#f5f5f5] w-full p-10 h-full">
+                <div>
+                    <h1 class="text-2xl font-bold ">The challenge of project</h1>
+                    <p class="mt-10">Authoritatively scale business meta-services before client-based technologies.
+                        Collaboratively strategize synergistic scenarios rather than flexible action items.
+                        Continually deliver market positioning convergence and mission-critical infrastructures.</p>
+                </div>
+                <div class="grid sm:flex gap-5  ">
+                    <div class="mt-5"> <img src="./assets/images/project_inner_3-300x183.jpg" alt=""></div>
+
+                    <div class="grid mt-5 ">
+                        <img src="./assets/images/project_inner_2-300x183.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+    </div>
+
+    </section>
+
+    <!-- section 4 end..-->
+
+
+    <!-- section 6 footer start...-->
+
+    <section>
+        <div class=" w-full mx-auto px-10 mt-15 py-20  rounded-t-3xl bg-[url('./assets/images/footer_bg_17.jpg')]">
+            <div class="grid  xl:grid-cols-3 justify-between items-center gap-5 mb-20 ">
+                <div class="flex lg:justify-center items-center gap-4  ">
+                    <div class="flex items-center justify-center text-white bg-blue-700 rounded-full  w-10 h-10 ">
+                        <i class="fa-solid fa-location-dot "></i>
+
+                    </div>
+                    <div>
+                        <h3 class="text-slate-500">
+                            ADDRESS</h3>
+                        <h3 class="text-white font-semibol">12 Division Park, SKY</h3>
+                        <h3 class="text-white font-semibol">12546. Berlin</h3>
+                    </div>
+                </div>
+
+                <div class="flex  lg:justify-center items-center gap-4 ">
+                    <div class="flex  justify-center items-center text-white bg-blue-700 rounded-full w-10 h-10 ">
+                        <i class="fa-solid fa-envelope"></i>
+
+                    </div>
+                    <div>
+                        <h3 class="text-slate-500">
+                            EMAIL</h3>
+                        <h3 class="hover:text-blue-600 text-white font-semibol">help@webteck-mail.com</h3>
+                        <h3 class=" hover:text-blue-600 text-white font-semibol">24/7@webteck-online.com</h3>
+                    </div>
+                </div>
+
+
+                <div class="flex  lg:justify-center  items-center gap-4 ">
+                    <div class="flex items-center justify-center text-white bg-blue-700 rounded-full w-10 h-10 ">
+                        <i class="fa-solid fa-phone"></i>
+
+                    </div>
+                    <div>
+                        <h3 class="text-slate-500">
+                            CALL</h3>
+                        <h3 class="hover:text-blue-600 text-white font-semibol">+(215) 2536-32156</h3>
+                        <h3 class=" hover:text-blue-600 text-white font-semibol">+(452) 3694-21587</h3>
+                    </div>
+                </div>
+
+            </div>
+            <div class="max-w-[80rem] bg-[#051234]  pt-10 px-10 pb-3  rounded-2xl mx-auto  mb-10 ">
+
+                <div class="grid lg:grid-cols-2 gap-5 justify-between items-center mb-10">
+                    <!-- Logo Section -->
+                    <div class="text-white mb-10 md:mb-0">
+                        <img src="./assets/images/logo-white3 (2).svg" alt="Logo">
+                    </div>
+
+                    <!-- Text Section -->
+                    <div class="text-white">
+                        <p>Their team's technical expertise is truly outstanding. They took the time to thoroughly
+                            understand our goals and requirements and then designed and implemented solutions that not
+                            only addressed our immediate challenges but also positioned us for future growth.</p>
+                    </div>
+                </div>
+
+
+                <div class="lg:flex justify-between">
+                    <div
+                        class="lg:flex md:justify-start justify-center  items-center gap-4 text-white font-semibold mb-10">
+                        <div>
+                            <a href="#" class="hover:text-blue-600">Home</a>
+                        </div>
+                        <div>
+                            <a href="#" class="hover:text-blue-600">About Us</a>
+                        </div>
+                        <div>
+                            <a href="#" class="hover:text-blue-600">Services</a>
+                        </div>
+                        <div>
+                            <a href="#" class="hover:text-blue-600">Portfolio</a>
+                        </div>
+                        <div>
+                            <a href="#" class="hover:text-blue-600">Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="flex justify-center md:justify-start text-white gap-5 mt-4 md:mt-0">
+                        <a href=""
+                            class="flex justify-center items-center hover:bg-blue-700 border-2 border-black w-10 h-10 rounded-full">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href=""
+                            class="flex justify-center items-center hover:bg-blue-700 border-2 border-black w-10 h-10 rounded-full">
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </a>
+                        <a href=""
+                            class="flex justify-center items-center hover:bg-blue-700 border-2 border-black w-10 h-10 rounded-full">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href=""
+                            class="flex justify-center items-center hover:bg-blue-700 border-2 border-black w-10 h-10 rounded-full">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- <p class="overline text-white">Copyright 2024 Themeholy. All Rights Reserved.</p> -->
+
+
+        </div>
+
+        </div>
+
+        </div>
+        </div>
+    </section>
+
+
 </body>
 
 <link rel="stylesheet" href="./assets/vendor/@fortawesome/fontawesome-free/js/all.min.js">
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-<!-- Your custom Swiper initialization script -->
-<script src="./index.js/swiper-init.js"></script>
-<script src="./index.js/sec3.js"></script>
-
-<script src="./index.js/sec4.js"></script>
-
-
-<script src="./index.js/company.js"></script>
-
-<script src="./index.js/sec5.js"></script>
 
 </html>
